@@ -42,11 +42,12 @@
        <!--CUADRICULA NUEVOS-->
       
    <div class="box-section col-11">
-   <div class="box col-12" >Noticas de hoy</div>
+   <div class="box-title col-12" >Noticas de hoy</div>
+        <div class="scrolling-wrapper">
        <div class="box-box">
        <a href="#">
        <amp-img src="img/head.jpg" height="150" width="150" layout="responsive" ></amp-img>
-       <h3>Lorem impuson nota</h3>
+       <h3>Lorem impuson nota</h3>  <p>Lorem impuon text torem imon 2019 se cierran tanto el quinquepuon text torem impuon text text</p>
     </a>  
        </div>
        
@@ -55,9 +56,14 @@
        <a href="#">
        <amp-img src="img/head.jpg" height="150" width="150" layout="responsive" ></amp-img>
        <h3>Lorem impuson nota</h3>
+           <p>Con 2019 se cierran tanto el quinquenio como la década 
+más cálidos desde que se tienen registros. Desde 1980</p>
     </a>  
        </div>
-       
+       </div>
     </div>
+     
+      
+      
   </body>
 </html>

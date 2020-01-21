@@ -1,8 +1,18 @@
+/*
+Theme Name: TijuanaPress
+Theme URI: https://www.tijuanapress.com
+Author: B612 Digital
+Author URI: https://www.b612digital.com
+Description: Plantilla para TijuanaPress
+Version: 1.0
+*/
+
 *{
     padding: 0;
     margin: 0;
     font-family: 'Roboto';
     color: #000;
+    text-decoration: none;
 }
 .col-1 {width: 8.33%;}
 .col-2 {width: 16.66%;}
@@ -71,14 +81,46 @@
     margin-top: 35px;
     margin-left: auto;
     margin-right: auto;
-    height: 1500px;
+    
     border:2px solid red;
+    
 }
 .box-section amp-img{
     border-radius: 15px;
     overflow: hidden;
 }
-.box-section .box-box{
-    width: 65%;
-    border: 2px solid red;
+.box-box{
+    width: 75%;
+    display: inline-block;
+    margin-right: 15px;
+}
+
+
+.scrolling-wrapper {
+    -webkit-overflow-scrolling: touch;
+  overflow-x: scroll;
+   
+    align-items: flex-start;
+  overflow-y: hidden;
+    white-space: nowrap;}
+
+.box-title{
+    font-family: 'Roboto';
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.scrolling-wrapper h3{
+    font-family: 'Roboto';
+    font-size: 16px;
+    text-decoration: none;
+    margin-top: 10px;
+    margin-bottom: 7px;
+    
+}
+.scrolling-wrapper p{
+    font-size: 14px;
+    white-space: initial;
+    color: #ccc;
+    letter-spacing: 0.4;
 }
